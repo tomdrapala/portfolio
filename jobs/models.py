@@ -8,6 +8,7 @@ class Job(models.Model):
     description = models.TextField(null=True)
     sort_order = models.IntegerField(default=1)
     url = models.URLField(null=True, blank=True)
+    active = models.BooleanField(default=True)
 
     SIZE_CHOICES = [
         ('img-small', 'Small'),

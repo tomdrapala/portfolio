@@ -3,7 +3,7 @@ from .models import Job
 
 
 def homepage(request):
-    jobs = Job.objects.all().order_by('sort_order')
+    jobs = Job.objects.all().filter(active=True).order_by('sort_order')
     return render(request, 'jobs/home.html', {'jobs':jobs})
 
 
