@@ -12,6 +12,7 @@ class Job(models.Model):
 
     SIZE_CHOICES = [
         ('img-small', 'Small'),
+        ('img-med', 'Medium'),
         ('img-large', 'Large'),
     ]
 
