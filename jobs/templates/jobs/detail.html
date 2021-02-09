@@ -13,10 +13,10 @@
     <div class="container">
       {% if job.url %}
         <a href="{{ job.url }}">
-          <img class="{{ job.size }} img-custom my-3" width="100%" height="100%" src="{{ job.image.url }}">
+          <img class="{{ job.size }} my-3"  src="{{ job.image.url }}">
         </a>
       {% else %}
-        <img class="{{ job.size }} img-custom my-3" width="100%" height="100%" src="{{ job.image.url }}">
+        <img class="{{ job.size }} my-3"  src="{{ job.image.url }}">
       {% endif %}
       <p class="description lead my-3">{{ job.description|urlize|linebreaks }}</p>
     </div>
