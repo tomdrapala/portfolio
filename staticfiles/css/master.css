@@ -5,30 +5,33 @@
 }
 
 .home-img {
-  height: 300px;
-  width: 100%;
+  width: 80%;
   max-width: 430px;
-  min-width: 300px;
 }
 
 .col-custom {
   min-width: 350px;
 }
 
+.card-img-top {
+  width: "100%";
+  height: auto;
+  max-height: 300px;
+}
 
 /* DETAIL */
-
-.img-custom {
-  height: 22em;
-  width: 100%;
-}
 
 .img-large {
   max-width: 30rem;
 }
 
-.img-small {
+.img-med {
   max-width: 25em;
+}
+
+.img-small {
+  max-width: 15em;
+  max-height: 15em;
 }
 
 .custom-container p {
