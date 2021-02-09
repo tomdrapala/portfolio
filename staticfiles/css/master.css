@@ -22,16 +22,19 @@
 /* DETAIL */
 
 .img-large {
+  width: 100%;
   max-width: 30rem;
 }
 
 .img-med {
+  width: 100%;
   max-width: 25em;
 }
 
 .img-small {
   max-width: 15em;
   max-height: 15em;
+  
 }
 
 .custom-container p {
