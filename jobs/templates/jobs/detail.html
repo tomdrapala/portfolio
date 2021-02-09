@@ -18,7 +18,11 @@
       {% else %}
         <img class="{{ job.size }} my-3"  src="{{ job.image.url }}">
       {% endif %}
-      <p class="description lead my-3">{{ job.description|urlize|linebreaks }}</p>
+      <div class="row justify-content">
+        <div class="details-custom col-md-7">
+          <p class="description lead my-3">{{ job.description|urlize|linebreaks }}</p>
+        </div>
+      </div>
     </div>
 
   </section>
